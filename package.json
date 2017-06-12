@@ -1,0 +1,21 @@
+{
+  "name": "vscode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix ./src/**"
+  },
+  "author": "",
+  "license": "ISC",
+  "pre-commit": [
+    "lint"
+  ],
+  "devDependencies": {
+    "eslint": "~3.5.0",
+    "eslint-config-standard": "~6.0.1",
+    "eslint-plugin-promise": "~3.4.0",
+    "eslint-plugin-standard": "~2.0.1",
+    "pre-commit": "^1.2.2"
+  }
+}
