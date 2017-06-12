@@ -4,13 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --fix ./src/**"
+    "test": "eslint --fix ./src/**"
   },
   "author": "",
   "license": "ISC",
-  "pre-commit": [
-    "lint"
-  ],
   "devDependencies": {
     "eslint": "~3.5.0",
     "eslint-config-standard": "~6.0.1",
